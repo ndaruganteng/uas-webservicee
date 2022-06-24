@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".MainActivity_login">
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:gravity="center"
+        android:padding="50dp"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_weight="1.5"
+        android:background="@color/white">
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="150dp"
+            android:src="@drawable/scooter"/>
+        <TextView
+            android:textAlignment="center"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Silahkan Login untuk melanjutkan"
+            android:textColor="@color/black" />
+    </LinearLayout>
+    <LinearLayout
+        android:orientation="vertical"
+        android:padding="15dp"
+        android:background="@drawable/bg_login"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_weight="1">
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Masuk"
+            android:textAlignment="center"
+            android:textSize="25sp"
+            android:textColor="@color/white"
+            android:textStyle="bold"/>
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="25dp">
+        </RelativeLayout>
+        <EditText
+            android:paddingLeft="10dp"
+            android:background="@drawable/form"
+            android:drawableStart="@drawable/user"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:hint=" masukan username"/>
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="15dp">
+        </RelativeLayout>
+        <EditText
+            android:paddingLeft="10dp"
+            android:background="@drawable/form"
+            android:drawableStart="@drawable/key"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:hint=" masukan password"/>
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="20dp">
+        </RelativeLayout>
+
+        <Button
+            android:background="@drawable/form"
+            android:layout_width="140dp"
+            android:layout_height="wrap_content"
+            android:text="Login"
+            android:textStyle="bold"
+            android:textAllCaps="false"
+            android:layout_gravity="center"/>
+
+
+    </LinearLayout>
+
+</LinearLayout>
